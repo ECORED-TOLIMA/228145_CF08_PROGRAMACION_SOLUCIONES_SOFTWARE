@@ -1,0 +1,15 @@
+
+┌────────────────────────────────────────────────────────────────────┐
+│                      npm update check failed                       │
+│                Try running with sudo or get access                 │
+│                to the local update config store via                │
+│ sudo chown -R $USER:$(id -gn $USER) C:\Users\Administrator\.config │
+└────────────────────────────────────────────────────────────────────┘
+
+> SENA-2025@7.0.2 serve D:\Sena\Sena2026\Github\Mayo\228145\228145_CF08_PROGRAMACION_SOLUCIONES_SOFTWARE
+> vue-cli-service serve "--host" "0.0.0.0" "--port" "8080"
+
+Browserslist: browsers data (caniuse-lite) is 16 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ INFO  Starting development server...
