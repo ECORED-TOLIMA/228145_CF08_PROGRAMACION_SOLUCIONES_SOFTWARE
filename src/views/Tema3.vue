@@ -55,12 +55,12 @@
           .row(titulo="Servidor de archivos")
             p Proporciona un repositorio común para almacenar y distribuir archivos, permitiendo el acceso controlado, la compartición de recursos y la gestión eficiente de la información dentro del sistema.
     p.mb-4 Los servicios representan funcionalidades específicas que pueden ser consumidas por otros sistemas, lo que permite que distintas aplicaciones se comuniquen e intercambien información de forma estructurada y controlada. En las aplicaciones modernas, estas funcionalidades suelen organizarse siguiendo diferentes enfoques arquitectónicos, como la arquitectura monolítica, donde todo está integrado en un solo sistema; la arquitectura basada en servicios, que separa responsabilidades en módulos reutilizables; y la arquitectura de microservicios, en la que cada servicio es independiente y puede desarrollarse, desplegarse y escalarse de manera autónoma.
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-1.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema3/img4.svg', style="width: 120px", alt='AvatarTop')
       .col-lg-11
-        p Para que estos servicios interactúen entre sí, se apoyan en protocolos y formatos de comunicación estandarizados que garantizan interoperabilidad y confiabilidad. Entre los más utilizados se encuentran HTTP/HTTPS, las APIs REST, los sistemas de mensajería mediante colas de mensajes y otros protocolos de comunicación estructurada, los cuales facilitan el intercambio de datos, la integración entre sistemas heterogéneos y la construcción de soluciones distribuidas más flexibles y escalables.
+        p.mb-0 Para que estos servicios interactúen entre sí, se apoyan en protocolos y formatos de comunicación estandarizados que garantizan interoperabilidad y confiabilidad. Entre los más utilizados se encuentran HTTP/HTTPS, las APIs REST, los sistemas de mensajería mediante colas de mensajes y otros protocolos de comunicación estructurada, los cuales facilitan el intercambio de datos, la integración entre sistemas heterogéneos y la construcción de soluciones distribuidas más flexibles y escalables.
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Servidores de aplicaciones y servidores #[i web]

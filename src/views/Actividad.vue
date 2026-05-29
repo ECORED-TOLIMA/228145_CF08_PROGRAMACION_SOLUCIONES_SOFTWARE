@@ -17,7 +17,7 @@ export default {
       tema: 'Herramientas y prácticas en el desarrollo de software',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Evaluar de manera integral los conocimientos sobre fundamentos de programación, herramientas de desarrollo, arquitecturas de software, pruebas, documentación y gestión del desarrollo, con el fin de fortalecer la comprensión técnica y la toma de decisiones en contextos reales.',
+        '<b>Objetivo:</b> evaluar de manera integral los conocimientos sobre fundamentos de programación, herramientas de desarrollo, arquitecturas de software, pruebas, documentación y gestión del desarrollo, con el fin de fortalecer la comprensión técnica y la toma de decisiones en contextos reales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
