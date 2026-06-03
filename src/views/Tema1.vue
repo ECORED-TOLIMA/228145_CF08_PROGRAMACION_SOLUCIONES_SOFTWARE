@@ -17,7 +17,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Lenguajes de programación: fundamento estructural 
-    p Un lenguaje de programación no es solo un medio para escribir código, sino un sistema formal de representación computacional que define cómo se estructuran, interpretan y ejecutan las instrucciones dentro de un entorno informático.
+    p Un lenguaje de programación no es solo un medio para escribir código, sino un #[b sistema formal de representación computacional] que define cómo se estructuran, interpretan y ejecutan las instrucciones dentro de un entorno informático.
     p Desde un enfoque técnico, los lenguajes se construyen sobre tres pilares:
     .row.justify-content-center.mb-4
       .col-lg-4
@@ -26,7 +26,7 @@
           .tarjeta.bgf9.w-100
             .p-4
               h5.text-center Nivel de abstracción
-              p.text-center Determina qué tan cerca está el lenguaje del hardware o del razonamiento humano.
+              p.text-center Determina qué tan cerca está el lenguaje del #[i hardware] o del razonamiento humano.
       .col-lg-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img3.svg' alt='AvatarTop')
@@ -60,7 +60,7 @@
               tbody
                 tr(style="background-color: #F3F9FF;")
                   th Bajo nivel.
-                  td Cercano al hardware.
+                  td Cercano al #[i hardware].
                   td Ensamblador.
                 tr  
                   th Alto nivel.
@@ -171,7 +171,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Paradigmas de programación: enfoque conceptual
-    p Los paradigmas no son herramientas, sino modelos mentales que definen cómo se estructura la solución de un problema. Cada paradigma introduce una forma distinta de pensar el desarrollo. Los paradigmas son modelos que guían la forma en que se resuelven los problemas mediante programación. No definen el lenguaje, sino el enfoque lógico aplicado.
+    p Los paradigmas no son herramientas, sino #[b modelos mentales] que definen cómo se estructura la solución de un problema. Cada paradigma introduce una forma distinta de pensar el desarrollo. Los paradigmas son modelos que guían la forma en que se resuelven los problemas mediante programación. No definen el lenguaje, sino el enfoque lógico aplicado.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4
@@ -211,12 +211,12 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los lenguajes de programación constituyen el medio formal mediante el cual se establecen instrucciones precisas para que un sistema computacional ejecute tareas específicas. Sin embargo, desde una perspectiva más profunda, un lenguaje no debe entenderse únicamente como una herramienta de codificación, sino como un modelo de comunicación estructurada entre el pensamiento humano y la lógica de máquina.
+        p.mb-0 Los lenguajes de programación constituyen el medio formal mediante el cual se establecen instrucciones precisas para que un sistema computacional ejecute tareas específicas. Sin embargo, desde una perspectiva más profunda, un lenguaje no debe entenderse únicamente como una herramienta de codificación, sino como #[b un modelo de comunicación estructurada entre el pensamiento humano y la lógica de máquina].
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2
-        p Cada lenguaje incorpora reglas sintácticas y semánticas que permiten representar algoritmos, pero su verdadero valor radica en el nivel de abstracción que ofrece para resolver problemas; es decir, en la capacidad de simplificar la complejidad del hardware y traducirla en estructuras comprensibles para el desarrollador.
+        p Cada lenguaje incorpora reglas sintácticas y semánticas que permiten representar algoritmos, pero su verdadero valor radica en el #[b nivel de abstracción que ofrece para resolver problemas]; es decir, en la capacidad de simplificar la complejidad del #[i hardware] y traducirla en estructuras comprensibles para el desarrollador.
         .cajon.color-secundario.p-4.mb-2
-          p.mb-0 En este sentido, los lenguajes de programación operan como capas intermedias que desacoplan la lógica del negocio de la ejecución física, permitiendo que el desarrollador se concentre en la solución del problema sin necesidad de gestionar directamente los detalles del hardware.
+          p.mb-0 En este sentido, los lenguajes de programación operan como capas intermedias que desacoplan la lógica del negocio de la ejecución física, permitiendo que el desarrollador se concentre en la solución del problema sin necesidad de gestionar directamente los detalles del #[i hardware].
         p Para comprender realmente cómo funciona un lenguaje, es necesario analizarlo desde varias dimensiones que influyen directamente en su comportamiento y aplicabilidad:
       .col-lg-4.col-8.mb-4.mb-lg-0.order-lg-2.order-1
         figure
@@ -228,7 +228,7 @@
       .col-lg-6
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Nivel de abstracción")
-            p Determina qué tan lejos está el lenguaje del hardware. Lenguajes de alto nivel permiten trabajar con conceptos más cercanos al problema, mientras que los de bajo nivel ofrecen mayor control sobre los recursos del sistema
+            p Determina qué tan lejos está el lenguaje del #[i hardware]. Lenguajes de alto nivel permiten trabajar con conceptos más cercanos al problema, mientras que los de bajo nivel ofrecen mayor control sobre los recursos del sistema
           .row(numero="2" titulo="Modelo de ejecución")
             p Define cómo se procesa el código. Puede ser mediante compilación (traducción previa), interpretación (ejecución directa) o modelos híbridos (compilación intermedia con optimización en tiempo de ejecución)
           .row(numero="3" titulo="Sistema de tipos")
@@ -237,7 +237,7 @@
             p Indica el enfoque lógico que el lenguaje permite aplicar (orientado a objetos, funcional, etc.), condicionando la forma en que se estructura el código
           .row(numero="5" titulo="Entorno de ejecución")
             p Incluye la plataforma sobre la cual se ejecuta el programa (máquina virtual, sistema operativo, navegador), influyendo en la portabilidad y el rendimiento
-    p El concepto clave para entender los lenguajes de programación es la abstracción. Un lenguaje abstrae tres niveles principales:
+    p El concepto clave para entender los lenguajes de programación es la #[b abstracción]. Un lenguaje abstrae tres niveles principales:
     SlyderB.mb-4(:datos="datosSlyder")
     p La elección de un lenguaje de programación no es una decisión superficial, ya que influye directamente en el rendimiento del sistema, la productividad del equipo de desarrollo, la calidad y mantenibilidad del código, la escalabilidad del sistema y la capacidad de integración con otras tecnologías, aspectos que en conjunto determinan la eficiencia y sostenibilidad de una solución de #[i software].
     p La tipología útil en proyectos reales combina la forma en que se ejecuta el código con el propósito para el cual se utiliza, tal como se aprecia en la siguiente tabla:
@@ -369,7 +369,7 @@ export default {
     mostrarIndicadorTarjetaAudio: true,
     datosSlyder: [
       {
-        titulo: 'Abstracción del hardware',
+        titulo: 'Abstracción del <em>hardware</em>',
         texto:
           'Evita la necesidad de trabajar directamente con detalles de bajo nivel, como direcciones de memoria o registros del procesador, permitiendo que el programador se concentre en la lógica del sistema.',
         imagen: require('@/assets/curso/temas/tema1/img19.png'),

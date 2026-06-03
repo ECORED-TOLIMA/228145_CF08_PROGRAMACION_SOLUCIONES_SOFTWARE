@@ -266,27 +266,27 @@
             li
               .lista-ol--cuadro__vineta
                 span 2
-              | Usar descomposición (WBS): dividir el sistema en componentes estimables.
+              p.mb-0 Usar #[b descomposición (WBS)]: dividir el sistema en componentes estimables.
             li
               .lista-ol--cuadro__vineta
                 span 3
-              | Aplicar triangulación: combinar al menos dos métodos (analógico + paramétrico).
+              p.mb-0 Aplicar #[b triangulación]: combinar al menos dos métodos (analógico + paramétrico).
             li
               .lista-ol--cuadro__vineta
                 span 4
-              | Estimar en rangos (optimista-más probable-pesimista) y derivar un valor esperado (ejemplo: PERT).
+              p.mb-0 Estimar en #[b rangos (optimista-más probable-pesimista)] y derivar un valor esperado (ejemplo: PERT).
             li
               .lista-ol--cuadro__vineta
                 span 5
-              | Incorporar reservas de contingencia para incertidumbre y riesgos identificados.
+              p.mb-0 Incorporar #[b reservas de contingencia] para incertidumbre y riesgos identificados.
             li
               .lista-ol--cuadro__vineta
                 span 6
-              | Ajustar por factores de productividad del equipo (experiencia, dominio del negocio, #[i tooling]).
+              p.mb-0 Ajustar por #[b factores de productividad] del equipo (experiencia, dominio del negocio, #[i tooling]).
             li
               .lista-ol--cuadro__vineta
                 span 7
-              | Revisar y reestimar iterativamente a medida que se reduce la incertidumbre.
+              p.mb-0 Revisar y #[b reestimar iterativamente] a medida que se reduce la incertidumbre.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         .bgf2-2.text-center.p-3
@@ -330,9 +330,9 @@
         figure
           img(src='@/assets/curso/temas/tema6/img16.png', alt='')
       .col-lg-6
-        p.mb-4 En #[i software], el costo se modela típicamente como Costo ≈ Esfuerzo (horas) × Tarifa. El esfuerzo, a su vez, depende del tamaño y la complejidad. El tiempo calendario no es equivalente al esfuerzo: reducir el plazo no implica necesariamente reducir el costo.
+        p.mb-4 En #[i software], el costo se modela típicamente como #[b Costo ≈ Esfuerzo (horas) × Tarifa]. El esfuerzo, a su vez, depende del tamaño y la complejidad. El tiempo calendario no es equivalente al esfuerzo: reducir el plazo no implica necesariamente reducir el costo.
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 Un principio clave es que aumentar el equipo tiene rendimientos decrecientes debido a la coordinación, transferencia de conocimiento y dependencias. La comunicación crece de forma no lineal (aprox. n(n−1)/2 canales), lo que introduce sobrecarga y riesgo de inconsistencias.
+          p.mb-0 Un principio clave es que #[b aumentar el equipo tiene rendimientos decrecientes] debido a la coordinación, transferencia de conocimiento y dependencias. La comunicación crece de forma no lineal (aprox. n(n−1)/2 canales), lo que introduce sobrecarga y riesgo de inconsistencias.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
@@ -422,7 +422,7 @@
                 img(src='@/assets/curso/temas/tema6/img20.svg', alt='AvatarTop')
     separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.2 Pruebas unitarias de #[i #[i software]]
+      h2 6.2 Elementos y características de la estimación de costos
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.col-8.mb-4.mb-lg-0
@@ -485,12 +485,12 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Características de una estimación de costos
-    p.mb-4 Una estimación efectiva no se define únicamente por los elementos que la componen, sino por las características que garantizan su calidad y utilidad dentro del proyecto. En primer lugar, la aproximación progresiva permite que la estimación se refine a medida que se dispone de mayor información, reduciendo la incertidumbre conforme avanza el desarrollo.
+    p.mb-4 Una estimación efectiva no se define únicamente por los elementos que la componen, sino por las características que garantizan su calidad y utilidad dentro del proyecto. En primer lugar, #[b la aproximación] progresiva permite que la estimación se refine a medida que se dispone de mayor información, reduciendo la incertidumbre conforme avanza el desarrollo.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
-        p.mb-4 Asimismo, la flexibilidad es fundamental para ajustar la estimación frente a cambios en los requerimientos o en las condiciones del proyecto, sin perder control ni coherencia. La trazabilidad asegura que cada valor estimado pueda justificarse a partir de datos, supuestos y experiencias previas, lo que fortalece la toma de decisiones.
+        p.mb-4 Asimismo, #[b la flexibilidad] es fundamental para ajustar la estimación frente a cambios en los requerimientos o en las condiciones del proyecto, sin perder control ni coherencia. #[b La trazabilidad] asegura que cada valor estimado pueda justificarse a partir de datos, supuestos y experiencias previas, lo que fortalece la toma de decisiones.
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 La consistencia implica que las estimaciones mantengan coherencia con versiones anteriores y con proyectos similares, evitando variaciones arbitrarias. Finalmente, la transparencia facilita que el equipo comprenda cómo se obtuvieron las estimaciones, promoviendo confianza y alineación. En conjunto, estas características convierten la estimación en una herramienta de gestión estratégica y no solo en un valor numérico aislado.
+          p.mb-0 #[b La consistencia] implica que las estimaciones mantengan coherencia con versiones anteriores y con proyectos similares, evitando variaciones arbitrarias. Finalmente, #[b la transparencia] facilita que el equipo comprenda cómo se obtuvieron las estimaciones, promoviendo confianza y alineación. En conjunto, estas características convierten la estimación en una herramienta de gestión estratégica y no solo en un valor numérico aislado.
       .col-lg-6.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema6/img29.png', alt='')
@@ -501,13 +501,13 @@
       h5 Niveles de estimación en el desarrollo
 
     p La estimación de costos no es un proceso único ni estático; evoluciona conforme avanza el proyecto y se reduce la incertidumbre. En cada etapa del ciclo de vida del #[i software], la estimación adquiere un nivel distinto de precisión, detalle y confiabilidad.
-    p.mb-4 La estimación de costos no es un proceso único ni estático; evoluciona conforme avanza el proyecto y se reduce la incertidumbre. En cada etapa del ciclo de vida del #[i software], la estimación adquiere un nivel distinto de precisión, detalle y confiabilidad.
+    p.mb-4 En fases tempranas, cuando los requisitos aún son generales, las estimaciones son aproximadas y sirven principalmente para #[b evaluar la viabilidad del proyecto]. A medida que se avanza hacia el diseño y desarrollo, la estimación se refina, incorporando información más concreta sobre el sistema.
 
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Evolución de los niveles de estimación
 
-    p.mb-4 Cada nivel responde a un propósito específico dentro del proyecto:[
+    p.mb-4 Cada nivel responde a un propósito específico dentro del proyecto:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-8.mb-4.mb-lg-0
         figure
@@ -595,7 +595,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema6/img32.png', alt='Texto que describa la imagen')
               .col-lg-6.mb-4.mb-md-0
-                h5Ajuste de tiempo
+                h5 Ajuste de tiempo
                 p Se orienta a modificar el cronograma mediante la extensión de plazos o la reorganización de entregables. Este ajuste busca recuperar la viabilidad del proyecto cuando los tiempos inicialmente estimados resultan insuficientes.
             .row(titulo="")
               .col-lg-6.mb-4.mb-lg-0
@@ -620,7 +620,7 @@
                 .col-lg-10
                   h5 Importancia del ajuste continuo
               p El ajuste continuo permite mantener el control del proyecto, evitando desviaciones críticas que puedan comprometer el presupuesto o el tiempo de entrega.
-              p.mb-0 En metodologías ágiles, este proceso se realiza de forma iterativa en cada ciclo de desarrollo (sprint), lo que facilita la adaptación a cambios y mejora la precisión de las estimaciones futuras.
+              p.mb-0 En metodologías ágiles, este proceso se realiza de forma iterativa en cada ciclo de desarrollo (#[i sprint]), lo que facilita la adaptación a cambios y mejora la precisión de las estimaciones futuras.
 
 </template>
 <script>

@@ -14,10 +14,10 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Herramientas y prácticas en el desarrollo de software',
+      tema: 'Herramientas y prácticas en el desarrollo de <em>software</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar de manera integral los conocimientos sobre fundamentos de programación, herramientas de desarrollo, arquitecturas de software, pruebas, documentación y gestión del desarrollo, con el fin de fortalecer la comprensión técnica y la toma de decisiones en contextos reales.',
+        '<b>Objetivo:</b> evaluar de manera integral los conocimientos sobre fundamentos de programación, herramientas de desarrollo, arquitecturas de <em>software</em>, pruebas, documentación y gestión del desarrollo, con el fin de fortalecer la comprensión técnica y la toma de decisiones en contextos reales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -31,7 +31,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Controlar hardware directamente.',
+              texto: 'Controlar <em>hardware</em> directamente.',
               esCorrecta: false,
             },
             {
@@ -63,7 +63,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'El hardware utilizado.',
+              texto: 'El <em>hardware</em> utilizado.',
               esCorrecta: false,
             },
             {
@@ -83,7 +83,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Los paradigmas definen cómo se piensa y se construye el software.',
+            '¡Excelente trabajo! Los paradigmas definen cómo se piensa y se construye el <em>software</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -110,7 +110,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Framework.',
+              texto: '#[i Framework].',
               esCorrecta: false,
             },
           ],
@@ -137,12 +137,12 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Diseñar hardware.',
+              texto: 'Diseñar <em>hardware</em>.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Facilitar el desarrollo de software.',
+              texto: 'Facilitar el desarrollo de <em>software</em>.',
               esCorrecta: true,
             },
           ],
@@ -153,13 +153,13 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué diferencia a un framework de una librería?',
+          texto: '¿Qué diferencia a un #[i framework] de una librería?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El framework define la estructura del proyecto.',
+              texto: 'El #[i framework] define la estructura del proyecto.',
               esCorrecta: true,
             },
             {
@@ -169,7 +169,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'El framework es más pequeño.',
+              texto: 'El #[i framework] es más pequeño.',
               esCorrecta: false,
             },
             {
@@ -179,13 +179,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! El framework impone una arquitectura, mientras la librería es usada bajo demanda.',
+            '¡Excelente trabajo! El #[i framework] impone una arquitectura, mientras la librería es usada bajo demanda.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: '¿Cuál es la función principal de un servidor web?',
+          texto: '¿Cuál es la función principal de un servidor #[i web]?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -211,7 +211,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! El servidor web responde solicitudes HTTP con contenido.',
+            '¡Excelente trabajo! El servidor #[i web] responde solicitudes HTTP con contenido.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -281,7 +281,7 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Cuál es el objetivo de las pruebas de software?',
+          texto: '¿Cuál es el objetivo de las pruebas de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -398,7 +398,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Facilitar la comprensión del software.',
+              texto: 'Facilitar la comprensión del <em>software</em>.',
               esCorrecta: true,
             },
           ],
@@ -505,7 +505,7 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Cuál es el objetivo de la gestión en software?',
+          texto: '¿Cuál es el objetivo de la gestión en <em>software</em>?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -521,7 +521,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Controlar hardware.',
+              texto: 'Controlar <em>hardware</em>.',
               esCorrecta: false,
             },
             {
@@ -569,7 +569,7 @@ export default {
         },
         {
           id: 18,
-          texto: '¿Qué factor influye más en el costo del software?',
+          texto: '¿Qué factor influye más en el costo del <em>software</em>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

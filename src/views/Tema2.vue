@@ -11,8 +11,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Las herramientas de desarrollo de #[i software] son el conjunto de aplicaciones que permiten diseñar, construir, probar, documentar y mantener sistemas informáticos. Su uso adecuado impacta directamente en la productividad del equipo, la calidad del código y la eficiencia del proceso de desarrollo.
-        p.mb-0 En el contexto actual, el desarrollo no depende de una sola herramienta, sino de un ecosistema integrado, donde cada componente cumple una función específica dentro del ciclo de vida del #[i software].
+        p Las herramientas de desarrollo de #[i software] son el conjunto de aplicaciones que permiten #[b diseñar, construir, probar, documentar y mantener sistemas informáticos]. Su uso adecuado impacta directamente en la #[b productividad del equipo, la calidad del código y la eficiencia del proceso de desarrollo].
+        p.mb-0 En el contexto actual, el desarrollo no depende de una sola herramienta, sino de un #[b ecosistema integrado], donde cada componente cumple una función específica dentro del ciclo de vida del #[i software].
     p Las herramientas se organizan según la etapa del desarrollo en la que aportan valor, permitiendo estructurar el trabajo de manera más eficiente. Entre ellas se encuentran:
     SlyderF(columnas="col-lg-6 col-xl-4").mb-4
       .tarjeta.bgfondo--slyderf.p-4
@@ -48,7 +48,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
         .p-4.cajon.color-primario
-          p.mb-0 No existe una herramienta universal; el valor está en cómo se combinan dentro del flujo de trabajo.
+          p.mb-0 No existe una herramienta universal; el valor está en #[b cómo se combinan dentro del flujo de trabajo].
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-1.order-lg-2
         p Los entornos de desarrollo integrados (IDE) y los editores de código constituyen el punto de entrada al proceso de desarrollo de #[i software]. Estas herramientas permiten escribir y estructurar el código, detectar errores de forma temprana y ejecutar programas dentro de un mismo entorno, incorporando funcionalidades como resaltado de sintaxis, autocompletado, depuración e integración con compiladores o intérpretes, lo que mejora la productividad y la calidad del código.
@@ -66,13 +66,13 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.1 Editores de código y entornos de desarrollo
-    p Los editores de código y los entornos de desarrollo (IDE) son herramientas esenciales en la construcción de #[i software], ya que proporcionan el espacio donde el desarrollador escribe, organiza, prueba y depura el código. Aunque ambos cumplen funciones similares, se diferencian en su nivel de complejidad e integración.
+    p Los editores de código y los entornos de desarrollo (IDE) son herramientas esenciales en la construcción de #[i software], ya que proporcionan el espacio donde el desarrollador #[b escribe, organiza, prueba y depura el código]. Aunque ambos cumplen funciones similares, se diferencian en su nivel de complejidad e integración.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema2/img7.svg' alt='AvatarTop')
       .col-lg-9
-        p Un editor de código está orientado a la edición ligera y flexible, mientras que un IDE ofrece un entorno completo que integra múltiples herramientas en una sola plataforma, optimizando el flujo de trabajo del desarrollador. La principal diferencia no radica solo en las funcionalidades, sino en el nivel de integración y automatización que ofrecen.
+        p Un editor de código está orientado a la #[b edición ligera y flexible], mientras que un IDE ofrece un entorno completo que integra múltiples herramientas en una sola plataforma, optimizando el flujo de trabajo del desarrollador. La principal diferencia no radica solo en las funcionalidades, sino en el nivel de integración y automatización que ofrecen.
     p.mb-4 La siguiente tabla, clarifica un poco estas diferencias:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -143,7 +143,7 @@
                 img(src="@/assets/curso/temas/tema2/img11_2.svg", alt="alt").img100.m-auto
             h5.text-center Integración con control de versiones
             p.text-center.mb-0 Facilita el trabajo colaborativo.
-    p Los editores de código están diseñados para ser rápidos, ligeros y altamente configurables, lo que los hace ideales para desarrolladores que requieren adaptabilidad, destacando:
+    p Los editores de código están diseñados para ser #[b rápidos, ligeros y altamente configurables], lo que los hace ideales para desarrolladores que requieren adaptabilidad, destacando:
     .tarjeta--container.row.mb-4
       .col.bgf5.p-5
         .row.justify-content-center.mb-4
@@ -208,9 +208,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1
         .p-4.cajon.color-secundario.mb-2
-          p.mb-0 Los #[i frameworks] y herramientas de apoyo son componentes clave en el desarrollo moderno, ya que proporcionan estructuras predefinidas, funcionalidades reutilizables y automatización de tareas, permitiendo construir aplicaciones de manera más eficiente y organizada.
-        p A diferencia de los lenguajes de programación, los #[i frameworks] no definen cómo se escribe el código, sino cómo se estructura y se organiza dentro de un entorno específico, promoviendo buenas prácticas y reduciendo la complejidad del desarrollo.
-        p.mb-0 Un framework es un conjunto de librerías, reglas y convenciones que establecen una base sobre la cual se construyen aplicaciones. Su principal característica es la inversión de control, donde el framework define el flujo general y el desarrollador implementa los componentes específicos.
+          p.mb-0 Los #[i frameworks] y herramientas de apoyo son componentes clave en el desarrollo moderno, ya que proporcionan #[b estructuras predefinidas, funcionalidades reutilizables y automatización de tareas], permitiendo construir aplicaciones de manera más eficiente y organizada.
+        p A diferencia de los lenguajes de programación, los #[i frameworks] no definen cómo se escribe el código, sino #[b cómo se estructura y se organiza dentro de un entorno específico], promoviendo buenas prácticas y reduciendo la complejidad del desarrollo.
+        p.mb-0 Un framework es un conjunto de librerías, reglas y convenciones que establecen una base sobre la cual se construyen aplicaciones. Su principal característica es la #[b inversión de control], donde el framework define el flujo general y el desarrollador implementa los componentes específicos.
       .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema2/img17.png', alt='Texto que describa la imagen')
@@ -242,8 +242,8 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figure 2.
-          span Estructura funcional de un framework
+          h5 Figura 2.
+          span Estructura funcional de un #[i framework]
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .d-none.d-lg-block.mb-4

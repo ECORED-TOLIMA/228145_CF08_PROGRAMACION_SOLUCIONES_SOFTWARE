@@ -11,15 +11,15 @@
         figure
           img(src='@/assets/curso/temas/tema5/img1.png', alt='Texto que describa la imagen') 
       .col-lg-7
-        p La documentación y las buenas prácticas de programación constituyen pilares fundamentales para garantizar la calidad, mantenibilidad y sostenibilidad del #[i software]. No se trata únicamente de escribir código funcional, sino de desarrollar soluciones que puedan ser comprendidas, utilizadas y mantenidas por otros desarrolladores a lo largo del tiempo.
+        p La documentación y las buenas prácticas de programación constituyen pilares fundamentales para garantizar la #[b calidad, mantenibilidad y sostenibilidad del #[i software]]. No se trata únicamente de escribir código funcional, sino de desarrollar soluciones que puedan ser comprendidas, utilizadas y mantenidas por otros desarrolladores a lo largo del tiempo.
         .p-4.cajon.color-primario
           p.mb-0 En entornos reales, el #[i software] no es un producto estático, sino un sistema en constante evolución. Por esta razón, la documentación permite transmitir conocimiento, mientras que las buenas prácticas establecen estándares que aseguran consistencia en el desarrollo. Ambos elementos reducen la dependencia del desarrollador original y facilitan la continuidad del proyecto.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Naturaleza técnica de las pruebas unitarias
+      h5 Importancia de la documentación en el desarrollo de #[i software]
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1
-        p La documentación permite describir el funcionamiento del sistema, sus componentes y la forma en que debe ser utilizado o mantenido. Su valor no radica en la cantidad de información, sino en su claridad, precisión y utilidad para distintos actores del proyecto.
+        p La documentación permite describir el funcionamiento del sistema, sus componentes y la forma en que debe ser utilizado o mantenido. Su valor no radica en la cantidad de información, sino en su #[b claridad, precisión y utilidad para distintos actores del proyecto].
         p En términos técnicos, la documentación cumple una función de referencia que facilita la comprensión del sistema sin necesidad de analizar directamente el código fuente. Esto es especialmente relevante en proyectos complejos donde múltiples equipos interactúan sobre el mismo sistema.
         p La documentación no es uniforme, se adapta a diferentes necesidades según el rol de quien la utiliza y el momento del ciclo de vida del #[i software]. Por ende, es importante conocer la siguiente tipología y sus procesos:
       .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
@@ -97,7 +97,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Buenas prácticas de programación
-    p Las buenas prácticas son principios que guían la forma en que se escribe el código, permitiendo que sea legible, mantenible y escalable. No son reglas rígidas, sino estándares que buscan mejorar la calidad del desarrollo.
+    p Las buenas prácticas son principios que guían la forma en que se escribe el código, permitiendo que sea #[b legible, mantenible y escalable]. No son reglas rígidas, sino estándares que buscan mejorar la calidad del desarrollo.
     figure.mb-4
       img(src='@/assets/curso/temas/tema5/img8.png', alt='Texto que describa la imagen')
     p Un código bien estructurado facilita su comprensión, reduce errores y permite realizar modificaciones sin afectar otras partes del sistema.
@@ -183,7 +183,7 @@
           img(src='@/assets/curso/temas/tema5/img17.png', alt='Infografía de matriz RACI')
       .col-lg-6
         .p-4.cajon.color-primario.mb-4
-          p.mb-0 Los manuales de usuario representan uno de los elementos más importantes dentro de la documentación del #[i software], ya que constituyen el puente entre el sistema desarrollado y el usuario final. Su propósito es facilitar el uso correcto de la aplicación, permitiendo que personas sin conocimientos técnicos puedan interactuar con el sistema de manera eficiente.
+          p.mb-0 Los manuales de usuario representan uno de los elementos más importantes dentro de la documentación del #[i software], ya que constituyen el puente entre el sistema desarrollado y el usuario final. Su propósito es #[b facilitar el uso correcto de la aplicación], permitiendo que personas sin conocimientos técnicos puedan interactuar con el sistema de manera eficiente.
         p.mb-4 A diferencia de la documentación técnica, los manuales de usuario se enfocan en la experiencia práctica, explicando cómo realizar tareas específicas dentro del sistema. Esto implica traducir funcionalidades complejas en instrucciones claras, estructuradas y orientadas a la acción.
         .titulo.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
@@ -192,7 +192,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Técnicas de documentación orientadas al usuario
-    p La documentación centrada en el usuario implica cambiar el enfoque tradicional: en lugar de explicar el sistema, se debe facilitar la ejecución de tareas reales.
+    p La documentación centrada en el usuario implica cambiar el enfoque tradicional: en lugar de explicar el sistema, se debe #[b facilitar la ejecución de tareas reales].
     p.mb-4 Esto requiere comprender el contexto del usuario, su nivel de conocimiento y los objetivos que busca cumplir. La documentación debe responder a preguntas prácticas como “¿qué se necesita hacer?” y “cómo se hace paso a paso?”, evitando explicaciones abstractas.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block
@@ -200,7 +200,7 @@
           img(src='@/assets/curso/temas/tema5/img18.svg', alt='Infografía de matriz RACI')
       .col-lg-9
         .p-4.cajon.color-primario
-          p.mb-0 Una técnica clave es la segmentación por tareas, donde cada sección del manual corresponde a una acción concreta. Esto mejora la navegabilidad y permite al usuario encontrar rápidamente lo que necesita.
+          p.mb-0 Una técnica clave es la #[b segmentación por tareas], donde cada sección del manual corresponde a una acción concreta. Esto mejora la navegabilidad y permite al usuario encontrar rápidamente lo que necesita.
     p Basado en lo anterior, se relacionan las técnicas avanzadas de documentación centradas en el usuario:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.d-none.d-lg-block.mb-4
@@ -248,7 +248,7 @@
       h2 5.2 Principios y buenas prácticas de programación
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-2.order-lg-1
-        p Las buenas prácticas de programación constituyen el conjunto de criterios técnicos que permiten construir #[i software] legible, mantenible, escalable y confiable. No se limitan a la sintaxis del lenguaje, sino que definen la forma en que se estructura, organiza y evoluciona el código a lo largo del tiempo.
+        p Las buenas prácticas de programación constituyen el conjunto de criterios técnicos que permiten construir #[i software] #[b legible, mantenible, escalable y confiable]. No se limitan a la sintaxis del lenguaje, sino que definen la forma en que se estructura, organiza y evoluciona el código a lo largo del tiempo.
         .p-4.cajon.color-primario
           p.mb-0 En entornos profesionales, el código no es desarrollado para un único uso, sino que debe ser entendido, modificado y ampliado por diferentes desarrolladores. Por esta razón, las buenas prácticas buscan reducir la complejidad, mejorar la claridad y facilitar la adaptación del sistema a nuevos requerimientos.
       .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
@@ -260,7 +260,7 @@
     p El objetivo principal de estas prácticas es controlar la complejidad del #[i software]. A medida que un sistema crece, la falta de organización puede generar dependencias innecesarias, dificultar su mantenimiento y aumentar la probabilidad de errores.
     figure.mb-4
       img(src='@/assets/curso/temas/tema5/img22.png', alt='Matriz RACI para dispositivos móviles')
-    p.mb-5 Un código bien estructurado no solo cumple su función, sino que también comunica su intención, permitiendo que otros desarrolladores comprendan rápidamente su propósito y funcionamiento.
+    p.mb-5 Un código bien estructurado no solo cumple su función, sino que también #[b comunica su intención], permitiendo que otros desarrolladores comprendan rápidamente su propósito y funcionamiento.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Principios clave en programación (profundización técnica)
@@ -269,8 +269,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img23.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Los principios de programación no son reglas aisladas, sino criterios de diseño que permiten controlar la complejidad del #[i software] a medida que crece. Su aplicación sistemática evita que el código se convierta en una estructura difícil de mantener, conocida comúnmente como código espagueti.
-        p.mb-0 Más allá de definiciones básicas, estos principios operan como mecanismos de decisión: orientan cuándo dividir componentes, cómo evitar dependencias innecesarias y de qué forma estructurar soluciones que puedan evolucionar sin generar efectos colaterales.
+        p Los principios de programación no son reglas aisladas, sino #[b criterios de diseño que permiten controlar la complejidad del #[i software]] a medida que crece. Su aplicación sistemática evita que el código se convierta en una estructura difícil de mantener, conocida comúnmente como código #[b espagueti].
+        br
+        br 
+        p.mb-0 Más allá de definiciones básicas, estos principios operan como #[b mecanismos de decisión]: orientan cuándo dividir componentes, cómo evitar dependencias innecesarias y de qué forma estructurar soluciones que puedan evolucionar sin generar efectos colaterales.
     p Un aspecto crítico es que estos principios no se aplican de forma rígida, sino contextual. Por ejemplo, aplicar DRY en exceso puede generar sobreabstracción, mientras que ignorarlo produce duplicidad. El equilibrio es lo que define la calidad del diseño.
     p.mb-4 La siguiente tabla detalla la aplicación y riesgo de cada principio destacado en entornos reales:
      .row.justify-content-center.align-items-center.mb-3
@@ -319,7 +321,7 @@
       .col-lg-8   
         p.mb-4 La estructuración del código define cómo se organiza el sistema internamente. No se trata solo de dividir archivos, sino de establecer una arquitectura donde cada componente tenga un propósito claro y una responsabilidad delimitada.
         .p-4.cajon.color-secundario.mb-4
-          p.mb-0 Una mala estructura genera acoplamiento, lo que significa que cambios en una parte del sistema afectan otras. En contraste, una buena estructura permite aislar cambios, facilitando la evolución del #[i software] sin romper funcionalidades existentes.
+          p.mb-0 Una mala estructura genera acoplamiento, lo que significa que cambios en una parte del sistema afectan otras. En contraste, una buena estructura permite #[b aislar cambios], facilitando la evolución del #[i software] sin romper funcionalidades existentes.
         p.mb-0 El diseño por capas (presentación, lógica, datos) es una de las estrategias más utilizadas, ya que separa responsabilidades y permite modificar cada nivel de manera independiente. A esto se suma la modularidad, donde el sistema se divide en unidades autónomas.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
@@ -348,7 +350,7 @@
       .col-lg-8          
         p La legibilidad del código es un factor crítico porque el #[i software] se lee más veces de las que se escribe. Un código difícil de entender incrementa el tiempo de mantenimiento, aumenta la probabilidad de errores y reduce la productividad del equipo.
         .p-4.cajon.color-secundario.mb-4
-          p.mb-0 La legibilidad no depende únicamente del nombre de variables, sino de la intención expresiva del código. Esto significa que el código debe ser capaz de explicar qué hace sin necesidad de comentarios extensos.
+          p.mb-0 La legibilidad no depende únicamente del nombre de variables, sino de la #[b intención expresiva del código]. Esto significa que el código debe ser capaz de explicar qué hace sin necesidad de comentarios extensos.
         p Un elemento clave es la consistencia: usar patrones de nombrado, estructuras similares y convenciones uniformes permite que cualquier desarrollador pueda interpretar el sistema rápidamente.              
       .col-lg-4.col-8.mb-4.mb-lg-0
         figure
@@ -370,7 +372,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Manejo de errores y robustez
-    p El manejo de errores es un componente esencial para la estabilidad del sistema. No se trata solo de capturar excepciones, sino de diseñar el #[i software] para que responda adecuadamente ante condiciones inesperadas.
+    p El manejo de errores es un componente esencial para la estabilidad del sistema. No se trata solo de capturar excepciones, sino de diseñar el #[i software] para que #[b responda adecuadamente ante condiciones inesperadas].
     p Un sistema robusto debe anticipar fallos en entradas, procesos y dependencias externas. Esto implica validar datos antes de procesarlos, controlar excepciones y garantizar que el sistema pueda recuperarse o al menos fallar de forma controlada. Además, el manejo de errores debe proporcionar información útil para diagnóstico sin exponer detalles sensibles, especialmente en entornos productivos.
     p La siguiente imagen representa en cada nivel:
     .row.justify-content-center.align-items-center.mb-3

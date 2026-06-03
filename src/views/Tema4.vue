@@ -8,7 +8,7 @@
       h1 Pruebas en el desarrollo de #[i software]
     figure.mb-4
       img(src='@/assets/curso/temas/tema4/img1.png', alt='Infografía de matriz RACI')
-    p Las pruebas de #[i software] constituyen un proceso sistemático orientado a verificar y validar que un sistema cumple con los requisitos definidos y funciona correctamente en distintos escenarios de uso. No se limitan a detectar errores, sino que permiten evaluar la calidad del #[i software], reducir riesgos y asegurar la confiabilidad del producto antes de su despliegue.
+    p Las pruebas de #[i software] constituyen un proceso sistemático orientado a #[b verificar y validar que un sistema cumple con los requisitos definidos y funciona correctamente en distintos escenarios de uso]. No se limitan a detectar errores, sino que permiten evaluar la calidad del #[i software], reducir riesgos y asegurar la confiabilidad del producto antes de su despliegue.
     .BG02.mb-4.px-5
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8.mb-4.mb-lg-0
@@ -24,7 +24,7 @@
           .row(titulo="")
             .col-lg-7.mb-4.mb-md-0.order-2.order-lg-1
               h5 Naturaleza y propósito de las pruebas
-              p Las pruebas cumplen dos funciones fundamentales: verificación, que consiste en comprobar que el #[i software] se construyó correctamente según su diseño y validación, que asegura que el sistema satisface las necesidades del usuario.
+              p Las pruebas cumplen dos funciones fundamentales: #[b verificación], que consiste en comprobar que el #[i software] se construyó correctamente según su diseño y #[b validación], que asegura que el sistema satisface las necesidades del usuario.
               p En términos prácticos, esto implica evaluar tanto el comportamiento esperado como las condiciones excepcionales, identificando fallos que podrían afectar la operación del sistema. Las pruebas no garantizan la ausencia total de errores, pero sí permiten reducir significativamente su probabilidad e impacto.
             .col-lg-5.col-12.mb-4.mb-lg-0.order-1.order-lg-2
               figure
@@ -33,14 +33,14 @@
             .col-lg-7.mb-4.mb-md-0.order-2.order-lg-1
               h5 Tipos de pruebas en el desarrollo
               p Las pruebas se clasifican según el nivel en el que se aplican y el tipo de evaluación que realizan. Cada tipo responde a una necesidad específica dentro del proceso de aseguramiento de calidad.
-              p Las pruebas unitarias se enfocan en componentes individuales, verificando que funciones o módulos específicos operen correctamente de manera aislada. Las pruebas de integración evalúan la interacción entre distintos componentes, asegurando que trabajen de forma conjunta sin errores. Por su parte, las pruebas de sistema analizan el comportamiento completo de la aplicación, mientras que las pruebas de aceptación validan el sistema desde la perspectiva del usuario final.
+              p Las #[b pruebas unitarias] se enfocan en componentes individuales, verificando que funciones o módulos específicos operen correctamente de manera aislada. Las #[b pruebas de integración] evalúan la interacción entre distintos componentes, asegurando que trabajen de forma conjunta sin errores. Por su parte, las #[b pruebas de sistema] analizan el comportamiento completo de la aplicación, mientras que las #[b pruebas de aceptación] validan el sistema desde la perspectiva del usuario final.
             .col-lg-5.col.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema4/img4.png', alt='Texto que describa la imagen')
           .row(titulo="")
             .col-lg-7.mb-4.mb-md-0.order-2.order-lg-1
               h5 Diseño de pruebas y casos de prueba
-              p El diseño de pruebas implica definir de manera estructurada las condiciones bajo las cuales se evaluará el sistema. Esto se materializa en los casos de prueba, que describen entradas, pasos de ejecución y resultados esperados.
+              p El diseño de pruebas implica definir de manera estructurada las condiciones bajo las cuales se evaluará el sistema. Esto se materializa en los #[b casos de prueba], que describen entradas, pasos de ejecución y resultados esperados.
               p Un caso de prueba bien definido permite reproducir escenarios específicos y comparar el comportamiento del sistema con lo esperado. Esto facilita la identificación de fallos y asegura que las pruebas sean repetibles y consistentes.
               p En entornos profesionales, el diseño de pruebas se basa en técnicas como la partición de equivalencia, análisis de valores límite y pruebas basadas en escenarios, lo que permite cubrir múltiples condiciones sin necesidad de evaluar todas las combinaciones posibles.
             .col-lg-5.col.mb-4.mb-lg-0.order-1.order-lg-2
@@ -58,7 +58,7 @@
             .col-lg-7.mb-4.mb-md-0.order-2.order-lg-1
               h5 Pruebas en entornos modernos de desarrollo
               p En el desarrollo actual, las pruebas se integran dentro de procesos continuos como CI/CD, donde cada cambio en el código es validado automáticamente antes de ser desplegado. Esto permite mantener un control constante sobre la calidad del #[i software] y evita la acumulación de errores.
-              p Además, enfoques como TDD (Test-Driven Development) proponen escribir las pruebas antes del código, lo que garantiza que cada funcionalidad tenga un criterio claro de validación desde su inicio.
+              p Además, enfoques como #[b TDD (Test-Driven Development)] proponen escribir las pruebas antes del código, lo que garantiza que cada funcionalidad tenga un criterio claro de validación desde su inicio.
             .col-lg-5.col.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema4/img7.png', alt='Texto que describa la imagen')
@@ -67,7 +67,7 @@
       h2 4.1 Casos de prueba y técnicas de creación
     figure.mb-4
       img(src='@/assets/curso/temas/tema4/img8.png', alt='Texto que describa la imagen')
-    p.mb-4 Los casos de prueba son la unidad básica mediante la cual se valida el comportamiento de un sistema de #[i software]. Representan escenarios controlados que permiten evaluar si una funcionalidad cumple con los requisitos definidos, estableciendo una relación directa entre lo esperado y lo obtenido durante la ejecución. Desde un enfoque técnico, un caso de prueba no es solo una descripción de pasos, sino una estructura formal que permite reproducir condiciones específicas, facilitando la detección de errores, la validación de resultados y el seguimiento del comportamiento del sistema a lo largo del tiempo.
+    p.mb-4 Los casos de prueba son la unidad básica mediante la cual se valida el comportamiento de un sistema de #[i software]. Representan #[b escenarios controlados que permiten evaluar si una funcionalidad cumple con los requisitos definidos], estableciendo una relación directa entre lo esperado y lo obtenido durante la ejecución. Desde un enfoque técnico, un caso de prueba no es solo una descripción de pasos, sino una #[b estructura formal que permite reproducir condiciones específicas], facilitando la detección de errores, la validación de resultados y el seguimiento del comportamiento del sistema a lo largo del tiempo.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Estructura técnica de un caso de prueba
@@ -129,7 +129,7 @@
             p El proceso de construcción de casos de prueba no es arbitrario; se basa en el análisis de requisitos y en la identificación de escenarios relevantes. Esto implica traducir funcionalidades en condiciones verificables, asegurando que cada aspecto del sistema sea evaluado de forma controlada.
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Un diseño adecuado considera tanto el comportamiento esperado como situaciones límite y condiciones excepcionales, lo que permite detectar errores que no son evidentes en escenarios básicos. Este enfoque evita la ejecución de pruebas innecesarias y optimiza la cobertura del sistema.
-        p Por su parte, las técnicas de diseño de pruebas permiten estructurar los casos de manera lógica, reduciendo la cantidad de pruebas necesarias sin afectar la calidad de la validación. Estas técnicas no buscan probar todo, sino probar lo necesario de forma inteligente.
+        p Por su parte, las técnicas de diseño de pruebas permiten estructurar los casos de manera lógica, reduciendo la cantidad de pruebas necesarias sin afectar la calidad de la validación. Estas técnicas no buscan probar todo, sino #[b probar lo necesario de forma inteligente].
     p Se invita a analizar la siguiente tabla que sintetiza lo relacionado con estas técnicas:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -184,7 +184,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img12.png', alt='Infografía de matriz RACI')
       .col-lg-7
-        p Las pruebas unitarias constituyen el nivel más básico y fundamental del proceso de validación en el desarrollo de #[i software]. Su propósito es verificar el comportamiento correcto de unidades individuales de código, como funciones, métodos o clases, de manera aislada. Este enfoque permite detectar errores en etapas tempranas, cuando su corrección es menos costosa y más controlable.
+        p Las pruebas unitarias constituyen el nivel más básico y fundamental del proceso de validación en el desarrollo de #[i software]. Su propósito es #[b verificar el comportamiento correcto de unidades individuales de código], como funciones, métodos o clases, de manera aislada. Este enfoque permite detectar errores en etapas tempranas, cuando su corrección es menos costosa y más controlable.
         .p-4.cajon.color-primario
           p.mb-0 A diferencia de otros tipos de pruebas, las pruebas unitarias no evalúan la interacción entre componentes, sino que se centran exclusivamente en el funcionamiento interno de una unidad específica. Esto implica que cada prueba se ejecuta en un entorno controlado, donde las dependencias externas son simuladas o eliminadas, garantizando que el resultado dependa únicamente del código evaluado.
     .titulo.mb-4(data-aos="fade-left")
@@ -194,7 +194,7 @@
       .col-lg-7
         p Desde una perspectiva estructural, una prueba unitaria se basa en la comparación entre un resultado esperado y el resultado obtenido, al ejecutar una unidad de código bajo condiciones específicas. Este proceso se apoya en #[i frameworks] especializados que permiten automatizar la ejecución y validación de los resultados.
         .p-4.mb-2.cajon.color-primario
-          p Una característica esencial es su independencia, lo que implica que cada prueba debe ejecutarse sin depender de otras. Esto garantiza que los errores puedan identificarse con precisión y que el comportamiento del sistema sea predecible.
+          p Una característica esencial es su #[b independencia], lo que implica que cada prueba debe ejecutarse sin depender de otras. Esto garantiza que los errores puedan identificarse con precisión y que el comportamiento del sistema sea predecible.
         p Desde esta perspectiva técnica, la siguiente imagen permite determinar el aislamiento de la unidad de código y la comparación entre el resultado obtenido y el esperado, elementos centrales de la prueba unitaria. Su análisis facilita comprender cómo se estructuran estas pruebas y prepara el terreno para abordar su aplicación y automatización en los apartados siguientes:
       .col-lg-5.col-8.mb-4.mb-lg-0
         figure
