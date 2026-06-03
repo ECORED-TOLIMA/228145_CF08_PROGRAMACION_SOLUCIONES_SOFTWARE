@@ -202,7 +202,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figure 4.
+          h5 Figura 4.
           span Enfoque de prueba unitaria
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10

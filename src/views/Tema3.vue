@@ -87,7 +87,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figure 3.
+          h5 Figura 3.
           span Relación entre servidor #[i web] y servidor de aplicaciones
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10

@@ -162,7 +162,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figure 5.
+          h5 Figura 5.
           span Organización estructural del código
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -170,10 +170,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img16.png', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
+                img(src='@/assets/curso/temas/tema5/img16.svg', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img16_1.png', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
+            img(src='@/assets/curso/temas/tema5/img16_1.svg', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
     separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Manuales de usuario y técnicas de documentación
@@ -378,7 +378,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figure 6.
+          h5 Figura 6.
           span Niveles de manejo de errores
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
