@@ -12,6 +12,8 @@
       )
       .bloque-texto-g__texto.p-4
         p Las herramientas de desarrollo de #[i software] son el conjunto de aplicaciones que permiten #[b diseñar, construir, probar, documentar y mantener sistemas informáticos]. Su uso adecuado impacta directamente en la #[b productividad del equipo, la calidad del código y la eficiencia del proceso de desarrollo].
+        br
+        br 
         p.mb-0 En el contexto actual, el desarrollo no depende de una sola herramienta, sino de un #[b ecosistema integrado], donde cada componente cumple una función específica dentro del ciclo de vida del #[i software].
     p Las herramientas se organizan según la etapa del desarrollo en la que aportan valor, permitiendo estructurar el trabajo de manera más eficiente. Entre ellas se encuentran:
     SlyderF(columnas="col-lg-6 col-xl-4").mb-4
@@ -124,7 +126,7 @@
               .col-8
                 img(src="@/assets/curso/temas/tema2/img10.svg", alt="alt").img100.m-auto
             h5.text-center Resaltado de sintaxis
-            p.text-center.mb-0 Mejora la lectura del código
+            p.text-center.mb-0 Mejora la lectura del código.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -257,7 +259,6 @@
     p Los #[i frameworks] se especializan según el tipo de aplicación que se desea desarrollar, lo que permite optimizar soluciones específicas.
     p.mb-4 La clasificación de #[i frameworks] por contexto incluye estos tipos:
 
-    
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.bgf5.p-5
         .row.justify-content-center.mb-4
@@ -316,7 +317,7 @@
           .tarjeta-numerada__numero
             .h2 2
           p.text-center 
-            b #[i Frontend] 
+            b #[i Backend] 
           ul.lista-ul.mb-0
             li.mb-0
               i.lista-ul__vineta

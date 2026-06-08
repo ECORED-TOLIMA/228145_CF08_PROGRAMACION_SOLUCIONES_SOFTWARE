@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import Actividad from '@/components/actividad/Actividad.vue'
 
 export default {
   name: 'ActividadDidactica',
@@ -110,7 +110,7 @@ export default {
             },
             {
               id: 'd',
-              texto: '#[i Framework].',
+              texto: '<em>Framework</em>.',
               esCorrecta: false,
             },
           ],
@@ -153,13 +153,13 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué diferencia a un #[i framework] de una librería?',
+          texto: '¿Qué diferencia a un <em>framework</em> de una librería?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El #[i framework] define la estructura del proyecto.',
+              texto: 'El <em>framework</em> define la estructura del proyecto.',
               esCorrecta: true,
             },
             {
@@ -169,7 +169,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'El #[i framework] es más pequeño.',
+              texto: 'El <em>framework</em> es más pequeño.',
               esCorrecta: false,
             },
             {
@@ -179,13 +179,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! El #[i framework] impone una arquitectura, mientras la librería es usada bajo demanda.',
+            '¡Excelente trabajo! El <em>framework</em> impone una arquitectura, mientras la librería es usada bajo demanda.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: '¿Cuál es la función principal de un servidor #[i web]?',
+          texto: '¿Cuál es la función principal de un servidor <em>web</em>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -211,7 +211,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! El servidor #[i web] responde solicitudes HTTP con contenido.',
+            '¡Excelente trabajo! El servidor <em>web</em> responde solicitudes HTTP con contenido.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -361,12 +361,12 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Un escenario definido para valida.r funcionalidad.',
+              texto: 'Un escenario definido para validar funcionalidad.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Un lenguaje de programación',
+              texto: 'Un lenguaje de programación.',
               esCorrecta: false,
             },
           ],

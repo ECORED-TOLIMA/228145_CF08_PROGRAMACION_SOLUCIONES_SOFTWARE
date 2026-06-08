@@ -169,7 +169,7 @@
     
     separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.1 Casos de prueba y técnicas de creación
+      h2 6.1 Costos asociados al desarrollo de #[i software]
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -436,7 +436,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Elementos fundamentales en la estimación de costos
-    p.mb-4 Los elementos de estimación representan las variables que influyen directamente en el cálculo del costo. No todos tienen el mismo peso, pero en conjunto determinan la precisión de la estimación. Los siguientes, son dichos elementos:[
+    p.mb-4 Los elementos de estimación representan las variables que influyen directamente en el cálculo del costo. No todos tienen el mismo peso, pero en conjunto determinan la precisión de la estimación. Los siguientes, son dichos elementos:
 
     .row.justify-content-center.BG01.align-items-center.px-5.mb-4
       .col-lg-4.d-none.d-lg-block
@@ -516,7 +516,6 @@
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Estimación inicial (orden de magnitud) ")
-            p Hacerlo en menos tiempo: suele incrementar el costo por:
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -531,7 +530,6 @@
                 i.lista-ul__vineta
                 | Se utiliza para toma de decisiones estratégicas.
           .row(titulo="Estimación intermedia (presupuestaria)")
-            p Puede reducir picos de costo al distribuir el trabajo en el tiempo, pero incrementa los costos indirectos de gestión e infraestructura y eleva el riesgo de cambios durante el proyecto.
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -546,7 +544,6 @@
                 i.lista-ul__vineta
                 | Reduce el margen de error.
           .row(titulo="Estimación detallada (definitiva)")
-            p Apoyada en el uso de herramientas adecuadas, la automatización de procesos y la experiencia del equipo, es el factor más eficaz para mejorar la relación entre tiempo y costo en el desarrollo de #[i software].
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta

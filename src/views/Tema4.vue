@@ -173,6 +173,8 @@
       )
       .bloque-texto-g__texto.p-4
         p Un equilibrio entre ambos aspectos permite validar el sistema de forma completa sin afectar el tiempo ni los recursos del proyecto. Esto se logra mediante la aplicación de técnicas de diseño y la priorización de escenarios críticos.
+        br
+        br
         p.mb-0 Igualmente, es importante tener en cuenta que un diseño inadecuado de casos de prueba puede generar resultados poco confiables o dificultar la detección de errores.
     p Entre los problemas más frecuentes se encuentran la falta de claridad en los resultados esperados, la duplicación de escenarios, la omisión de condiciones límite y la ausencia de trazabilidad con los requisitos. 
     p.mb-0 Estos errores afectan la calidad del proceso de pruebas y pueden llevar a conclusiones incorrectas sobre el estado del sistema.
@@ -270,7 +272,7 @@
                 img(src='@/assets/curso/temas/tema4/img16.svg', alt='Texto que describa la imagen')
             .col-lg-10
               h3 Ejecución (#[i act])
-              p Se invoca la unidad de código que se desea probar, aplicando la lógica bajo prueba con los datos y condiciones definidos en el paso anterior. Esta etapa representa la acción central de la prueba unitaria.
+              p.text-align-left Se invoca la unidad de código que se desea probar, aplicando la lógica bajo prueba con los datos y condiciones definidos en el paso anterior. Esta etapa representa la acción central de la prueba unitaria.
           .row
             .col-lg-10
               h3 Validación (#[i assert])

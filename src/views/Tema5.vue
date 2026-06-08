@@ -193,7 +193,7 @@
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Técnicas de documentación orientadas al usuario
     p La documentación centrada en el usuario implica cambiar el enfoque tradicional: en lugar de explicar el sistema, se debe #[b facilitar la ejecución de tareas reales].
-    p.mb-4 Esto requiere comprender el contexto del usuario, su nivel de conocimiento y los objetivos que busca cumplir. La documentación debe responder a preguntas prácticas como “¿qué se necesita hacer?” y “cómo se hace paso a paso?”, evitando explicaciones abstractas.
+    p.mb-4 Esto requiere comprender el contexto del usuario, su nivel de conocimiento y los objetivos que busca cumplir. La documentación debe responder a preguntas prácticas como “¿qué se necesita hacer?” y “¿cómo se hace paso a paso?”, evitando explicaciones abstractas.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block
         figure
@@ -213,7 +213,7 @@
               p #[b Aplicación:] organización por acciones.
               p #[b Beneficio:] mayor claridad.
             .tarjeta.bgf6.p-3(x="43.5%" y="50%" numero="+")
-              p #[b Lenguaje ]contextual
+              p #[b Aplicación:] adaptado al usuario.
               p #[b Beneficio:] mejor comprensión.
             .tarjeta.bgf6.p-3(x="43%" y="65%" numero="+")
               p #[b Aplicación:] pasos ordenados.

@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/img1.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema1/img1.png", alt="alt").m-auto
       .col-lg-8
         .p-4.bgf9.mb-4
           p.mb-0 Los lenguajes de programación constituyen la base sobre la cual se desarrollan los sistemas informáticos, permitiendo traducir necesidades humanas en instrucciones que pueden ser ejecutadas por una máquina. Su correcta comprensión no solo implica conocer su sintaxis, sino entender su lógica, estructura y propósito dentro del desarrollo de #[i software].
@@ -59,21 +59,21 @@
                   th Ejemplo
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Bajo nivel.
+                  td Bajo nivel.
                   td Cercano al #[i hardware].
                   td Ensamblador.
                 tr  
-                  th Alto nivel.
-                  th Cercano al lenguaje humano.
-                  th Python.
+                  td Alto nivel.
+                  td Cercano al lenguaje humano.
+                  td Python.
                 tr(style="background-color: #F3F9FF;")
-                  th Compilados.
-                  th Traducción previa a ejecución.
-                  th C++.
+                  td Compilados.
+                  td Traducción previa a ejecución.
+                  td C++.
                 tr
-                  th Interpretados.
-                  th Ejecución directa.
-                  th JavaScript.
+                  td Interpretados.
+                  td Ejecución directa.
+                  td JavaScript.
     p Los aspectos clave de los lenguajes destacan lo siguiente:
     .tarjeta--container.row.mb-4
       .col.tarjeta.bgf5.p-5
@@ -228,17 +228,19 @@
       .col-lg-6
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Nivel de abstracción")
-            p Determina qué tan lejos está el lenguaje del #[i hardware]. Lenguajes de alto nivel permiten trabajar con conceptos más cercanos al problema, mientras que los de bajo nivel ofrecen mayor control sobre los recursos del sistema
+            p Determina qué tan lejos está el lenguaje del #[i hardware]. Lenguajes de alto nivel permiten trabajar con conceptos más cercanos al problema, mientras que los de bajo nivel ofrecen mayor control sobre los recursos del sistema.
           .row(numero="2" titulo="Modelo de ejecución")
-            p Define cómo se procesa el código. Puede ser mediante compilación (traducción previa), interpretación (ejecución directa) o modelos híbridos (compilación intermedia con optimización en tiempo de ejecución)
+            p Define cómo se procesa el código. Puede ser mediante compilación (traducción previa), interpretación (ejecución directa) o modelos híbridos (compilación intermedia con optimización en tiempo de ejecución).
           .row(numero="3" titulo="Sistema de tipos")
-            p Regula cómo se manejan los datos. Un tipado estricto permite detectar errores antes de la ejecución, mientras que un tipado flexible facilita el desarrollo rápido, pero puede introducir fallos en tiempo de ejecución
+            p Regula cómo se manejan los datos. Un tipado estricto permite detectar errores antes de la ejecución, mientras que un tipado flexible facilita el desarrollo rápido, pero puede introducir fallos en tiempo de ejecución.
           .row(numero="4" titulo="Paradigma soportado")
-            p Indica el enfoque lógico que el lenguaje permite aplicar (orientado a objetos, funcional, etc.), condicionando la forma en que se estructura el código
+            p Indica el enfoque lógico que el lenguaje permite aplicar (orientado a objetos, funcional, etc.), condicionando la forma en que se estructura el código.
           .row(numero="5" titulo="Entorno de ejecución")
-            p Incluye la plataforma sobre la cual se ejecuta el programa (máquina virtual, sistema operativo, navegador), influyendo en la portabilidad y el rendimiento
+            p Incluye la plataforma sobre la cual se ejecuta el programa (máquina virtual, sistema operativo, navegador), influyendo en la portabilidad y el rendimiento.
     p El concepto clave para entender los lenguajes de programación es la #[b abstracción]. Un lenguaje abstrae tres niveles principales:
     SlyderB.mb-4(:datos="datosSlyder")
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 El lenguaje actúa como intermediario entre el problema y la máquina, permitiendo que ambos se comuniquen sin complejidad directa.
     p La elección de un lenguaje de programación no es una decisión superficial, ya que influye directamente en el rendimiento del sistema, la productividad del equipo de desarrollo, la calidad y mantenibilidad del código, la escalabilidad del sistema y la capacidad de integración con otras tecnologías, aspectos que en conjunto determinan la eficiencia y sostenibilidad de una solución de #[i software].
     p La tipología útil en proyectos reales combina la forma en que se ejecuta el código con el propósito para el cual se utiliza, tal como se aprecia en la siguiente tabla:
     .row.justify-content-center.align-items-center.mb-3
@@ -258,21 +260,21 @@
                   th Cuándo usarlo
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Compilados.
+                  td Compilados.
                   td Se traducen a binario antes de ejecutarse.
                   td Sistemas de alto rendimiento.
                 tr 
-                  th Interpretados.
-                  th Se ejecutan línea a línea.
-                  th Desarrollo rápido y flexible.
+                  td Interpretados.
+                  td Se ejecutan línea a línea.
+                  td Desarrollo rápido y flexible.
                 tr(style="background-color: #F3F9FF;")
-                  th Híbridos (bytecode/JIT).
-                  th Compilan a un intermedio y optimizan en ejecución.
-                  th Apps empresariales y multiplataforma.
+                  td Híbridos (bytecode/JIT).
+                  td Compilan a un intermedio y optimizan en ejecución.
+                  td Apps empresariales y multiplataforma.
                 tr
-                  th Específicos de dominio (DSL).
-                  th Enfocados a un problema concreto.
-                  th Configuración, consultas, automatización.
+                  td Específicos de dominio (DSL).
+                  td Enfocados a un problema concreto.
+                  td Configuración, consultas, automatización.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-8.mb-4.mb-lg-0
         figure
