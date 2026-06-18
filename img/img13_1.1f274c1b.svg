@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="396" height="1615" viewBox="0 0 396 1615">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_467203" data-name="Rectángulo 467203" width="117.737" height="150" fill="#19538d"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1212930" data-name="Grupo 1212930" transform="translate(11186 8994)">
+    <rect id="Rectángulo_466854" data-name="Rectángulo 466854" width="396" height="1615" transform="translate(-11186 -8994)" fill="#c0f6f2"/>
+    <circle id="Elipse_13713" data-name="Elipse 13713" cx="135" cy="135" r="135" transform="translate(-11123 -8965)" fill="#ffeebc"/>
+    <circle id="Elipse_13714" data-name="Elipse 13714" cx="135" cy="135" r="135" transform="translate(-11123 -8575.037)" fill="#ffeebc"/>
+    <circle id="Elipse_13716" data-name="Elipse 13716" cx="135" cy="135" r="135" transform="translate(-11123 -7764.978)" fill="#ffeebc"/>
+    <g id="Grupo_1212923" data-name="Grupo 1212923" transform="translate(-12258.711 -10005.978)">
+      <rect id="Rectángulo_467197" data-name="Rectángulo 467197" width="56" height="56" rx="14" transform="translate(1211.711 2298)" fill="#19538d"/>
+      <rect id="Rectángulo_467200" data-name="Rectángulo 467200" width="56" height="55" rx="14" transform="translate(1211.711 2360)" fill="#19538d"/>
+      <rect id="Rectángulo_467198" data-name="Rectángulo 467198" width="55" height="56" rx="14" transform="translate(1274.711 2298)" fill="#19538d"/>
+      <rect id="Rectángulo_467199" data-name="Rectángulo 467199" width="55" height="55" rx="14" transform="translate(1274.711 2360)" fill="#19538d"/>
+    </g>
+    <g id="Grupo_1212917" data-name="Grupo 1212917" transform="translate(-11277.711 -11230)">
+      <rect id="Rectángulo_467188" data-name="Rectángulo 467188" width="124" height="38" rx="14" transform="translate(227.711 2313)" fill="#19538d"/>
+      <rect id="Rectángulo_467191" data-name="Rectángulo 467191" width="124" height="39" rx="14" transform="translate(227.711 2368.017)" fill="#19538d"/>
+      <rect id="Rectángulo_467192" data-name="Rectángulo 467192" width="124" height="38" rx="14" transform="translate(227.711 2425)" fill="#19538d"/>
+      <path id="Unión_30" data-name="Unión 30" d="M0,14.625H5.833V0h8.333V14.625H20L10,26Z" transform="translate(279.711 2343.031)" fill="#19538d"/>
+      <path id="Unión_31" data-name="Unión 31" d="M0,14.625H5.833V0h8.333V14.625H20L10,26Z" transform="translate(279.711 2399.219)" fill="#19538d"/>
+    </g>
+    <g id="Grupo_1212916" data-name="Grupo 1212916" transform="translate(-11955.711 -10848.195)">
+      <rect id="Rectángulo_467194" data-name="Rectángulo 467194" width="82.332" height="37.899" rx="14" transform="translate(871.711 2409.542)" fill="#19538d"/>
+      <rect id="Rectángulo_467195" data-name="Rectángulo 467195" width="82.332" height="37.899" rx="14" transform="translate(980.834 2409.542)" fill="#19538d"/>
+      <g id="Rectángulo_467193" data-name="Rectángulo 467193" transform="translate(925.292 2339.487) rotate(-45)" fill="#19538d" stroke="#707070" stroke-width="1">
+        <rect width="59.462" height="59.462" rx="17" stroke="none"/>
+        <rect x="0.5" y="0.5" width="58.462" height="58.462" rx="16.5" fill="none"/>
+      </g>
+      <path id="Trazado_1278644" data-name="Trazado 1278644" d="M-9273-9213" transform="translate(10185.877 11637.57)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Trazado_1278645" data-name="Trazado 1278645" d="M-9163.689-9242.955v-19.712H-9273v19.712" transform="translate(10185.552 11653.868)" fill="none" stroke="#19538d" stroke-width="3"/>
+      <path id="Trazado_1278646" data-name="Trazado 1278646" d="M-9189.711-9284v13.243" transform="translate(10157.149 11660.807)" fill="none" stroke="#19538d" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1212918" data-name="Grupo 1212918" transform="translate(-11055 -8768.263)">
+      <g id="Grupo_20708" data-name="Grupo 20708" transform="translate(15 15.527)">
+        <text id="Secuencial" transform="translate(0 10.7)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-44.271" y="19">Secuencial</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_1212919" data-name="Grupo 1212919" transform="translate(-11055 -8401.3)">
+      <g id="Grupo_20708-2" data-name="Grupo 20708" transform="translate(15 15.527)">
+        <text id="Condicional" transform="translate(0 10.7)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-49.917" y="19">Condicional</tspan></text>
+      </g>
+    </g>
+    <text id="Modular" transform="translate(-11040 -7565.015)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-36.114" y="19">Modular</tspan></text>
+    <g id="Grupo_1212929" data-name="Grupo 1212929" transform="translate(11)">
+      <circle id="Elipse_13715" data-name="Elipse 13715" cx="135" cy="135" r="135" transform="translate(-11134 -8185.037)" fill="#ffeebc"/>
+      <text id="Iterativa" transform="translate(-11051 -7985.074)" fill="#12263f" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-35.257" y="19">Iterativa</tspan></text>
+      <g id="Grupo_1212922" data-name="Grupo 1212922" transform="translate(-11058 -8151.771)">
+        <g id="Grupo_1212921" data-name="Grupo 1212921" clip-path="url(#clip-path)">
+          <path id="Trazado_1278649" data-name="Trazado 1278649" d="M94.945,111.6H84.983A58.853,58.853,0,0,0,58.878,0C24.623,0,.789,30.39.019,58.774-.427,75.232,7.2,88.083,12.293,94.782L7.711,99.364l17.717,4.747L20.681,86.394l-3.871,3.87C12.282,84.135,5.965,73,6.346,58.946,7.034,33.535,28.308,6.329,58.878,6.329a52.531,52.531,0,1,1,0,105.062v.213H22.794a5.907,5.907,0,0,0-5.907,5.907v26.582A5.907,5.907,0,0,0,22.794,150H94.945a5.907,5.907,0,0,0,5.907-5.907V117.511a5.907,5.907,0,0,0-5.907-5.907" transform="translate(0)" fill="#19538d"/>
+        </g>
+      </g>
+    </g>
+    <text id="Ejecución_paso_a_paso_en_un_orden_lógico_y_predefinido_donde_cada_instrucción_se_procesa_después_de_la_anterior_sin_desviaciones." data-name="Ejecución paso a paso en un orden lógico y predefinido, donde cada instrucción se procesa después de la anterior sin desviaciones." transform="translate(-11160 -8675.133)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Ejecución paso a paso en un orden lógico y </tspan><tspan x="0" y="41">predefinido, donde cada instrucción se procesa </tspan><tspan x="0" y="65">después de la anterior sin desviaciones.</tspan></text>
+    <text id="Repetición_controlada_de_procesos_que_se_ejecutan_mientras_una_condición_se_mantiene_verdadera_o_por_un_número_determinado_de_iteraciones." data-name="Repetición controlada de procesos que se ejecutan mientras una condición se mantiene verdadera o por un número determinado de iteraciones." transform="translate(-11160 -7890.073)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Repetición controlada de procesos que se </tspan><tspan x="0" y="41">ejecutan mientras una condición se mantiene </tspan><tspan x="0" y="65">verdadera o por un número determinado de </tspan><tspan x="0" y="89">iteraciones.</tspan></text>
+    <text id="División_del_programa_en_funciones_o_clases_que_encapsulan_tareas_específicas_facilitando_la_organización_y_reutilización_del_código." data-name="División del programa en funciones o clases que encapsulan tareas específicas, facilitando la organización y reutilización del código." transform="translate(-11160 -7475.074)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">División del programa en funciones o clases que </tspan><tspan x="0" y="41">encapsulan tareas específicas, facilitando la </tspan><tspan x="0" y="65">organización y reutilización del código.</tspan></text>
+    <text id="Toma_de_decisiones_basada_en_la_evaluación_de_condiciones_permitiendo_que_el_programa_siga_distintos_caminos_según_el_resultado." data-name="Toma de decisiones basada en la evaluación de condiciones, permitiendo que el programa siga distintos caminos según el resultado." transform="translate(-11160 -8285.133)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Toma de decisiones basada en la evaluación de </tspan><tspan x="0" y="41">condiciones, permitiendo que el programa siga </tspan><tspan x="0" y="65">distintos caminos según el resultado.</tspan></text>
+    <rect id="Rectángulo_467204" data-name="Rectángulo 467204" width="365" height="3" transform="translate(-11170 -8593)" fill="#0f654d"/>
+    <rect id="Rectángulo_467206" data-name="Rectángulo 467206" width="365" height="3" transform="translate(-11170 -7782.94)" fill="#0f654d"/>
+    <rect id="Rectángulo_467205" data-name="Rectángulo 467205" width="365" height="3" transform="translate(-11170 -8203)" fill="#0f654d"/>
+  </g>
+</svg>
